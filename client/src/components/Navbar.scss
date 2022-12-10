@@ -1,0 +1,12 @@
+@use "../styles/partials/colors.scss" as *;
+
+.nav-bar {
+  display: flex;
+  background-color: $primary-color-black;
+  width:100%;
+}
+
+.logo {
+  width: 2rem;
+  height: 2rem;
+}
