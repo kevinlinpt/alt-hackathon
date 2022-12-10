@@ -3,10 +3,79 @@
 .nav-bar {
   display: flex;
   background-color: $primary-color-black;
-  width:100%;
+  width: 100%;
+  padding: 0.5rem;
+  height: 3rem;
+  justify-content: space-between;
 }
 
 .logo {
-  width: 2rem;
+  height: 2.5rem;
+  width: 100%;
+} 
+
+.logo-container {
+  margin: 0.25rem 0 0 1rem;
+}
+
+.search-bar-container {
+  display: flex;
+  background-color: $secondary-color-black;
+  padding: 0.25rem;
+  border-radius: 7px;
+
+}
+
+.search-bar {
+  height:100%;
+  background-color: rgba(31, 41, 55);
   height: 2rem;
+  background: url(../images/search_icon.png) no-repeat scroll 5px 5px;
+  background-size: 25px;;
+  padding-left: 35px;
+  border: none;
+  color:white;
+  &::placeholder {
+    color: grey
+  }
+}
+
+.search-icon {
+  color: white;
+  height: 1.75rem;
+  width: 1.75rem;
+}
+
+.pages-container {
+  display:flex;
+  align-items: center;
+  color: white;
+  height:100%;
+}
+
+.pages-text:link {
+}
+
+.avatar-container {
+  background-color: grey;
+  border-radius: 0.25rem;
+  // width: 2.5rem;
+  height: 2.5rem;
+  margin: 0.25rem 2rem 0 0;
+}
+
+.avatar {
+  filter:invert(100%);
+  height: 100%;
+  width: 100%;
+}
+
+li {
+  list-style: none;
+  margin-left: 2rem;
+}
+
+a {
+  text-decoration: none;
+color:white
 }

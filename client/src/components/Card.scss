@@ -1,0 +1,15 @@
+.card {
+  width: 17.5rem;
+  height: 25rem;
+  margin: 1rem 2rem;
+  justify-content: center;
+  background: #eeeeee;
+  box-shadow: 3px 3px 3px #aaaaaa;
+  border-radius: 5px;
+  text-align: center;
+  padding-top: 0.9375rem;
+  font-weight: 600;
+  &__image {
+      height: 20rem;
+  }
+}
