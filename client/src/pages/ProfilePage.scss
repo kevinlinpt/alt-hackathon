@@ -1,0 +1,70 @@
+.profile-page {
+  display: flex;
+  flex-direction: column;
+  // width:100%;
+  // background: #ffffff;
+}
+
+.profile-description {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 86px 105px 0 102px;
+}
+
+.profile-image-container {
+  display: flex;
+  align-items: center;
+}
+
+.avatar-icon {
+  width: 178px;
+  height: 178px;
+  left: 1157px;
+  top: 175px;
+}
+
+.user-name {
+  height: 100px;
+  left: 102px;
+  top: 214px;
+  font-style: normal;
+  font-size: 100px;
+  line-height: 100px;
+  color: #1e1e1e;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.qr-code-container {
+  width: 104px;
+  height: 104px;
+  left: 1024px;
+  top: 212px;
+  margin-right: 29px;
+}
+
+.card-container {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 0 74px 150px 74px;
+}
+
+.profile-stats {
+  margin: 0 0 0 104px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  text-decoration-line: underline;
+  color: #7e7e7e;
+}
+
+.portfolio-header {
+  margin: 50px 0 0 104px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 54px;
+}
