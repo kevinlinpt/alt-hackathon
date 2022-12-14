@@ -23,10 +23,10 @@ function Navbar() {
         <li>
           <a className="pages-text">VAULT</a>
         </li>
-        <Link to={"/forum"}>
-        <li>
-          <a className="pages-text">COMMUNITIES</a>
-        </li>
+        <Link to={"/community"}>
+          <li>
+            <a className="pages-text">COMMUNITIES</a>
+          </li>
         </Link>
         <li>
           <a className="pages-text">ABOUT</a>
@@ -36,7 +36,11 @@ function Navbar() {
         </li>
       </div>
       <div className="divider"></div>
-          <a className="profile-container pages-text">PROFILE</a>
+      <div className="profile-container">
+        <Link to={"/profile"}>
+          <a className="pages-text">PROFILE</a>
+        </Link>
+      </div>
     </div>
   );
 }

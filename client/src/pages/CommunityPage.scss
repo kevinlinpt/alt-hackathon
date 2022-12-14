@@ -1,0 +1,56 @@
+.community-header {
+  color: #1E1E1E;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 100px;
+  line-height: 130px;
+  margin: 49px 0 0 103px;
+}
+
+.community-subheader {
+  color: #1E1E1E;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 42px;
+  margin: 49px 0 0 103px;
+}
+
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 8px;
+  width: 163px;
+  height: 44px;
+  left: 99px;
+  top: 285px;
+  margin: 10px 0 10px 103px;
+}
+
+.search-bar__icon {
+  height: 36px;
+  width: 36px;
+}
+
+.search-bar__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 44px;
+  color: #7e7e7e;
+}
+
+.line-break {
+  color: #7e7e7e;
+  margin: 0 104px 0 106px;
+}
+
+.secondary-card-container{
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin: 32px 96px 150px 96px;
+}

@@ -1,14 +1,12 @@
 import React from "react";
-import "./Card.scss";
+import "./CommunityCard.scss";
 
-function Card({ cards }) {
-  
+function CommunityCard({ cards }) {
   return (
     <>
       {cards.map((cards) => {
-        console.log(cards.image);
         return (
-          <div className="card">
+          <div className="secondary-card">
             <img
               className="card__image"
               src={cards.image}
@@ -21,4 +19,4 @@ function Card({ cards }) {
   );
 }
 
-export default Card;
+export default CommunityCard;
