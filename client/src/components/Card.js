@@ -1,14 +1,24 @@
-import React from 'react'
-import "./Card.scss"
-import cardImage from "../images/panini-maradona_card.jpg"
+import React from "react";
+import "./Card.scss";
 
-function Card() {
+function Card({ cards }) {
+  
   return (
-    <div className="card">
-            <img className="card__image" src ={cardImage} alt={"image"}/>
-            <div className="card__title">Panini Maradona</div>
-        </div>
-  )
+    <>
+      {cards.map((cards) => {
+        console.log(cards.image);
+        return (
+          <div className="card">
+            <img
+              className="card__image"
+              src={cards.image}
+              alt="baseball card image"
+            />
+          </div>
+        );
+      })}
+    </>
+  );
 }
 
-export default Card
+export default Card;

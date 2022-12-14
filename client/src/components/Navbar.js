@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Logo from "../images/reddit_logo.png";
-import avatarIcon from "../images/avatar_icon_1.png";
+import Logo from "../images/alt_logo.png";
 import "./Navbar.scss";
 
 function Navbar() {
@@ -10,27 +9,34 @@ function Navbar() {
       <div className="logo-container">
         <img className="logo" src={Logo}></img>
       </div>
-      <form action="" className="search-bar-container">
-        <input type="text" className="search-bar" placeholder="Search"></input>
-      </form>
+      <div className="divider"></div>
       <div className="pages-container">
+        <li>
+          <a className="pages-text">BUY</a>
+        </li>
+        <li>
+          <a className="pages-text">SELL</a>
+        </li>
+        <li>
+          <a className="pages-text">BORROW</a>
+        </li>
+        <li>
+          <a className="pages-text">VAULT</a>
+        </li>
         <Link to={"/forum"}>
         <li>
-          <a className="pages-text">Community</a>
+          <a className="pages-text">COMMUNITIES</a>
         </li>
         </Link>
         <li>
-          <a className="pages-text">Browse</a>
+          <a className="pages-text">ABOUT</a>
         </li>
         <li>
-          <a className="pages-text">About</a>
+          <a className="pages-text">HELP</a>
         </li>
       </div>
-      <Link to={"/profile"}>
-      <button className="avatar-container">
-        <img src={avatarIcon} alt="" className="avatar" />
-      </button>
-      </Link>
+      <div className="divider"></div>
+          <a className="profile-container pages-text">PROFILE</a>
     </div>
   );
 }
