@@ -1,0 +1,150 @@
+// Discussion.scss //
+
+.discussion {
+    margin: auto;
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 30px;
+
+    &__container {
+        margin: auto;
+        width: 90%;
+        padding: 20px;
+        background-color: #ffffff;
+    }
+
+    &__header {
+        margin:0;
+        display: flex;
+        align-items: baseline;
+    }
+
+    &__subheader {
+        margin:0;
+        width: 100%;
+    }
+
+    &__item {
+        margin-top: 12px;
+
+        width: 100%;
+    }
+
+    &__subitem {
+        margin: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+    }
+
+    &__subitem-aside {
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+
+    &__message {
+        margin: auto;
+        width: 80%;
+    }
+
+    &__message-card {
+        width: 100;
+    }
+
+    &__message-nav {
+        width: 100;
+        display: flex;
+    }
+
+    &__message-btn {
+        margin: 0;
+        margin-right: 12px;
+        font-size: 14px;
+        display: flex;
+        align-items: center;
+    }
+
+    &__message-action {
+        width: 100%;
+        text-align: right;
+    }
+
+    ul {
+        display: flex;
+        list-style: none;
+    }
+
+    li { list-style: none;}
+
+    img {
+        border-radius: 8px;
+    }
+}
+
+
+.info-labelGreen {
+    font-size: 30px;
+    font-weight: normal;
+    color: #12c375;
+}
+
+.info-subheader {
+    margin-right: 16px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    color: #000000;
+}
+
+.info-caption {
+    margin-right: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: #7e7e7e;
+}
+
+img.iconProfile {
+    border-radius: 50%;
+    height: 90px;
+    width: 90px;
+}
+
+img.iconMessage {
+    height: 30px;
+    width: 30px;
+    margin-right: 8px;
+}
+
+textarea.textMessage {
+    border-radius: 8px;
+    resize: none;
+    padding: 16px 50px;
+    overflow: auto;
+    scrollbar-width: thin;
+    width: 90%;
+
+    background-image: url('../images/icon_text.png');
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position-x: 8px;
+    background-position-y: 8px;
+
+}
+
+.btnMessage {
+    background-color: #7c50fc;
+    border: none;
+    color: white;
+    padding: 8px 12px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
