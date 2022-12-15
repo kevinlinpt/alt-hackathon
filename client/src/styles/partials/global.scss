@@ -1,14 +1,10 @@
 @use "./colors.scss" as *;
 
-
 html, body {
   margin: 0;
   padding: 0;
-  //position: fixed;
   width: 100vw;
   height: 100vh;
-  //text-align: center;
-
   overflow-x: hidden;
   overflow-y: auto;
 

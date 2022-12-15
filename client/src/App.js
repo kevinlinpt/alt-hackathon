@@ -1,4 +1,3 @@
-import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import HomePage from "./pages/HomePage";
 import CommunityPage from "./pages/CommunityPage";
@@ -17,7 +16,6 @@ function App() {
         <Route path="/community" element={<CommunityPage />} />
         <Route path="/community/baseball" element={<BaseballPage />} />
         <Route path="/profile" element={<ProfilePage />} />
-
         <Route path="/discussion" element={<Discussion />} />
       </Routes>
     </Router>
