@@ -60,7 +60,7 @@ const Discussion = (props) => {
                         <div className="discussion__message-card">
                             <h3>My New Collection</h3>
                             
-                            <p>I started collecting sports cards on this platform about 8 months ago.
+                            <p className="discussion__message-text">I started collecting sports cards on this platform about 8 months ago.
                                 Last week, I purchased these 3 baseball cards to add to my portfolio,
                                 and they've gone up 8% in value! Sweet. (P.s. I'm currently selling
                                 2 exclusive basketball cards, checkout my profile for more info).
